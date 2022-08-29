@@ -1,0 +1,207 @@
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=
+            "width=device-width, initial-scale=1.0">
+        <title>
+            Build a Survey Form using HTML and CSS
+        </title>
+    
+        <style>
+    
+         
+            body {
+                background-color: #7b36bc;
+                font-family: Verdana;
+                text-align: center;
+            }
+    
+           
+            form {
+                background-color: #fff;
+                max-width: 500px;
+                margin: 50px auto;
+                padding: 30px 20px;
+                box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+            }
+    
+           
+            .form-control {
+                text-align: left;
+                margin-bottom: 25px;
+            }
+    
+        
+            .form-control label {
+                display: block;
+                margin-bottom: 10px;
+            }
+    
+          
+            .form-control input,
+            .form-control select,
+            .form-control textarea {
+                border: 1px solid #777;
+                border-radius: 2px;
+                font-family: inherit;
+                padding: 10px;
+                display: block;
+                width: 95%;
+            }
+    
+            
+            .form-control input[type="radio"],
+            .form-control input[type="checkbox"] {
+                display: inline-block;
+                width: auto;
+            }
+    
+            /* Styling Button */
+            button {
+                background-color: #05c46b;
+                border: 1px solid #777;
+                border-radius: 2px;
+                font-family: inherit;
+                font-size: 21px;
+                display: block;
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+        </style>
+
+
+
+<html>
+
+<head>
+<body>
+    <title>Survey Form </title>
+    <meta charset="UTF-8">
+    <title>Embedded Style Sheet</title>
+    <style type="text/css">
+        body { background-color: rgb(195, 151, 239); }
+        </style>
+
+<h1>Survey Form</h1>
+  
+ <h6> Let us know how we can improve freeCode Camp</h6>
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+        <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+        <br>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+          
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+        <br>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+
+         
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+  <br>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you current role?
+            </label>
+
+            <select name="role" id="role">
+				<option value="student">Student</option>
+				<option value="Intern">Intern</option>
+				<option value="other">
+					other
+				</option>
+				<option value="Not sure">Not sure</option>
+			</select>
+		</div>
+        <br>
+
+        <div class="form-control">
+			<label>
+				Would you recommend GeeksforGeeks
+				to a friend?
+			</label>
+
+			<br>
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Definitely</input>
+			</label>
+            <br>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Not sure</input>
+			</label>
+            <br>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Maybe</input>
+			</label>
+            <br>
+		</div>
+        <br>
+        
+        <div class="form-control">
+            <label for="role" id="label-role">
+                What do you like most in FCC:
+            </label>
+
+            <select name="role" id="role">
+				<option value="wire">wire</option>
+				<option value="cable">cable</option>
+				<option value="other">
+					other
+				
+			</select>
+		</div>
+<br>
+        <div class="form-control">
+			<label>Things that should be imporoved in the future<br> (check all that apply):
+			</label>
+<br>
+            <label for="inp-1">
+				<input type="checkbox"
+					name="inp">Front-end Project</input></label>
+			<label for="inp-2">
+                <br>
+				<input type="checkbox"
+					name="inp">Back-end project</input></label>
+			<label for="inp-3">
+                <br>
+				<input type="checkbox"
+					name="inp">Data Visualization</input></label>
+			<label for="inp-4">
+				
+	
+</body>
+
+
+</head>
+
+</html>
